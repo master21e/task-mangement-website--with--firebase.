@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Task-Manger</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"></meta>
+        <link rel="stylesheet" href="C:\web development\task-mangement\task-mangement-1\style.css"/>
+    </head>
+    <body>
+        <div class="task-form">
+                <input type="text" id="task-input" placeholder="add a new task">
+            <button onclick="addTask()">add Task</button>
+        </div>
+<ul id="task-list"></ul>
+
+<!-- Firebase SDK -->
+<script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-firestore.js"></script>
+<script src="script.js"></script>
+    </body>
+</html>
